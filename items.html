@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="icons/font/flaticon.css">
+    <title>Browsing page</title>
+    <style type="text/css">
+        .jumbotron {
+            background-image: url("https://images.uffizi.it/production/attachments/1503909239806647-605174-2-.jpg?ixlib=rails-2.1.3&w=2500&h=2500&fit=unset&crop=center&fm=pjpg&auto=compress&mark=https%3A%2F%2Fimages.uffizi.it%2Fproduction%2Fattachments%2Flogo-watermark.png");
+            color:floralwhite;
+            background-size: cover;
+        }
+        #advanced-form {
+            display: none;
+        }
+
+        #header {
+            font-family:'Nanum Myeongjo', serif;
+        }
+
+        .container_img {
+          position: relative;
+          width: 100%;
+        }
+
+        .image {
+          opacity: 1;
+          display: block;
+          width: 100%;
+          height: auto;
+          transition: .5s ease;
+          backface-visibility: hidden;
+        }
+
+        .container_img:hover .image {
+          opacity: 0.5;
+        }
+
+        iframe{
+          padding: 1em;
+        }
+
+        #iframe_container{
+          margin-top: 2em;
+          display: flex;
+          justify-content: space-between;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="jumbotron">
+    <br><br>
+     <div id="header">
+      <h1 class=display-3 style="text-align:center;"><strong>THE VISION SHAPE</strong></h1>
+      <p class="lead" style="text-align:center;"><strong>What if you could look at exactly what you are looking for?</strong></p>
+  </div>
+    </div>
+
+    <div class="container">
+
+
+    <div class="text-center">
+
+      <h3 class="my-5">Estasi di Santa Cecilia fra i Santi Paolo, Giovanni Evangelista, Agostino e Maria Maddalena</h3>
+
+      <img src="santacecilia.jpg" class="rounded mb-5" alt="..." usemap="#santacecilia_map">
+      <map id="santacecilia_map" name="santacecilia_map">
+        <area shape="poly" coords="300, 471, 360, 437, 382, 472, 383, 563, 370, 599, 296, 473" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Portative.jpg/220px-Portative.jpg" target="_blank" alt="Portative organ" title="Portative organ">
+        <area shape="poly" coords="362, 226, 371, 230, 373, 239, 372, 250, 364, 254, 364, 271, 370, 271, 370, 285, 365, 285, 365, 306, 370, 306, 371, 311, 365, 312, 367, 354, 360, 354, 360, 313, 356, 313, 355, 305, 361, 305, 359, 286, 355, 286, 352, 272, 359, 272, 359, 253, 351, 245, 353, 232" href="browse_img.html" target="_blank" alt="Pastoral staff" title="Pastoral staff">
+      </map>
+
+    </div>
+
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Autore</th>
+          <td>Raffaello</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Data di nascita/morte</th>
+          <td>Urbino 1483 - Roma 1520</td>
+
+        </tr>
+        <tr>
+          <th scope="row">Data</th>
+          <td>1518</td>
+
+        </tr>
+        <tr>
+          <th scope="row">Museo</th>
+          <td>Pinacoteca Nazionale di Bologna</td>
+        </tr>
+        <tr>
+          <th scope="row">Collezione</th>
+          <td>Sala 15: Raffaello e l'arte centro italiana</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Collocazione</th>
+          <td>Sala 15</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Provenienza</th>
+          <td>San Giovanni in Monte</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Tecnica</th>
+          <td>Olio su tavola trasportata su tela</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Dimensione</th>
+          <td>236x149</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Inventario</th>
+          <td>577</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <p>
+      Il famosissimo dipinto, capolavoro della maturità di Raffaello, raffigura il momento dell’estasi di Santa Cecilia, in cui la santa lascia scivolare le canne dell’organo portativo che ha ancora tra le mani, simbolo delle gioie terrene e volge lo sguardo verso il coro degli angeli, emblema dell’amore divino.
+    </p>
+    <p>
+      I santi che le fanno corona non vengono coinvolti nell’esperienza mistica di Cecilia, ma esprimono ugualmente, con il gioco degli sguardi, l’idea dell'amore assoluto in contrapposizione con l'amore terreno. San Paolo medita osservando gli strumenti musicali a terra, i santi Giovanni e Agostino sono concentrati in un intenso dialogo di sguardi, Maria Maddalena si rivolge all’osservatore invitandolo ad assistere al mistero e mostrando il vaso contenente l’olio con cui volle ungere, mossa dall’amore, i piedi di Cristo.
+    </p>
+    <p>
+      Raffaello assegna alla <strong>figura umana</strong> il ruolo di elemento centrale della rappresentazione, riunendo il gruppo dei Santi in uno spazio raccolto a semicerchio che allude all’abside di una chiesa e riducendo lo sfondo di paesaggio.
+    </p>
+    <p>
+      Straordinaria l’originalità della <strong>“natura morta” di strumenti musicali</strong> in primo piano per la cui esecuzione Raffaello si avvalse del suo allievo e collaboratore Giovanni da Udine.
+    </p>
+    <p>
+      Il dipinto fu eseguito a Roma e portato poi a Bologna per essere collocato nella chiesa di San Giovanni in Monte nella cappella della famiglia di Elena Duglioli dall’Olio.
+    </p>
+    <p>
+      Attorno a Elena, donna colta, devota e dedita ad opere di carità, si era diffusa in città, a partire dal 1506, una profonda venerazione: la vita della donna era accomunata a quella di santa Cecilia per la castità vissuta all'interno del matrimonio e per le sue visioni mistiche.
+    </p>
+    <p>
+      Il soggetto ruota dunque intorno all’identificazione tra Cecilia ed Elena espressa nell’iconografia dell’estasi e nei temi collaterali: la rinuncia ai piaceri della vita mondana è rappresentata dagli strumenti musicali rotti e buttati a terra, mentre l’esaltazione della verginità è richiamata dal tradizionale simbolo di castità della cintura alta che chiude la raffinatissima veste della santa
+    </p>
+    <p>
+      Giorgio Vasari, che costituisce la fonte più antica, assegna la commissione al cardinale Lorenzo Pucci fratello del vescovo Antonio Pucci che, durante il suo soggiorno bolognese, era entrato in rapporto con Elena Duglioli dall’Olio.
+    </p>
+    <p>
+      L’arrivo del dipinto del più grande artista della corte pontificia con un soggetto legato al culto di Elena Duglioli rappresentò per Bologna un importante elemento di propaganda per la restaurazione del potere papale.
+    </p>
+    <p>
+      Nell’ambiente artistico emiliano, l’eccellenza stilistica e la <strong>portata innovativa</strong> della “santa Cecilia” incontrarono vari gradi di comprensione e di interpretazione, tuttavia il potere evocativo esercitato dall’opera fu enorme al punto da costituire il perno attorno a cui si muoverà l’evoluzione della pittura locale fino a tutto il Seicento.
+    </p>
+
+    <div id="iframe_container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/XWFG08LnaoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cW3-KogDuho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+             <!-- Pagination -->
+          <!--
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-end">
+                <li class="page-item  border border-warning">
+                  <a class="page-link text-warning" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </li>
+                <li class="page-item  border border-warning"><a class="page-link text-warning" href="#">1</a></li>
+                <li class="page-item  border border-warning"><a class="page-link text-warning" href="#">2</a></li>
+                <li class="page-item  border border-warning"><a class="page-link text-warning" href="#">3</a></li>
+                <li class="page-item  border border-warning">
+                  <a class="page-link text-warning" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          -->
+
+            <br>
+            <br>
+            </div>
+            </div>
+        </div>
+        <br><br><hr>
+        <div class="container">
+            <!-- Footer -->
+        <footer class="page-footer font-small pt-4">
+          <div class="container-fluid text-center text-md-left">
+            <div class="row justify-content-around">
+              <div class="col-md-6 mt-md-0 mt-3">
+                <h5 class="text-uppercase text-warning">The Vision Shape <span class="flaticon-visibility"></span></h5>
+                <p class="text-justify">TVS is a database information retrieval project aimed at extracting unstructured data from paintings in order to conduct artistic, historical, sociological and iconological researches on the civilization to which they belong.</p>
+
+              </div>
+              <hr class="clearfix w-100 d-md-none pb-3">
+              <div class="col-md-2 mb-md-0 mb-3">
+                <h5 class="text-uppercase text-warning">Team</h5>
+                <ul class="list-unstyled">
+                  <li>
+                    Arcangelo Massari
+                  </li>
+                  <li>
+                    Giulia Morini
+                  </li>
+                  <li>
+                    Elisa Silva
+                  </li>
+                </ul>
+
+              </div>
+              <div class="col-md-3 mb-md-0 mb-3">
+
+                <h5 class="text-uppercase text-warning">Contacts</h5>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!">giulia.morini5@studio.unibo.it</a>
+                  </li>
+                  <li>
+                    <a href="#!">elisa.silva@studio.unibo.it</a>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+          </div>
+          <!-- Footer Links -->
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">from a DMMDB course © 2020 Copyright:
+            <a href="#"> Alma Mater Studiorum Bologna Univeristy</a>
+          </div>
+          <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+
+        <script src="lib/overlib.js"></script>
+</body>
+</html>
